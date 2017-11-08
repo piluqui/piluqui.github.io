@@ -359,7 +359,7 @@ module JuegoCostanera {
 			}
 		}
 		
-		collisionBonus (hamburguesas, personaje){
+		collisionBonus (hamburguesas, personaje){ 
 			personaje.kill();
 			//Increase the score
 			this.getPersonaje().setPuntos(this.getPersonaje().getPuntos() + 20);
